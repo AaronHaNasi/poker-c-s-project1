@@ -16,8 +16,8 @@ class deck:
     # Returns a random card from the deck. Only pulls from cards that haven't
     # been pulled yet.
     def deal:
-        random.shuffle(deck)
-        return deck.pop()
+        random.shuffle(cards)
+        return cards.pop()
 
     def reset:
         cards = ['AC', '2C'. '3C', '4C', '5C', '6C', '7C', '8C', '9C', '10C', 'JC',
