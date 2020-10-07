@@ -1,6 +1,6 @@
 class player:# Player object
     def __init__(self, name):
-    self.name = name 
+    self.name = name
     hand = []
     tokens = 100
     is_small_blind = False
